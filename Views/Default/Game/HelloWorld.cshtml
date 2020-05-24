@@ -1,0 +1,28 @@
+﻿@using System.Web.Mvc.Html
+@using TCAdmin.SDK.Web.MVC.Extensions
+@model Game.HelloWorldModel
+@{
+    Layout = this.GetTemplateFile("Shared/Main.cshtml", true);
+
+    <script>
+        $(document).ready(function () {
+            document.title = "@TCAdmin.SDK.Web.MVC.Template.GetSelectedTemplateTitle() " + "Hello World!"; // Sets the page title
+            $('.header-text').html("Hello World - A Sample Module") // Sets the page header
+        });
+    </script>
+}
+
+@section head{
+
+}
+
+@section sidebar{
+    @Html.Action("_PageIcons", "Service", new { id = Model.Service.ServiceId }) @*Adds the service buttons to the sidebar*@
+}
+<br />
+@Model.Message @*Displays the 'Hello World' message*@
+<br />
+<br />
+@Model.ServiceStartedOn @*Displays information about the service startup time & process id*@
+
+
