@@ -128,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Views\Default\Game\HelloWorld.cshtml" />
+    <None Include="Views\Default\Game\Service\HelloWorld.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
