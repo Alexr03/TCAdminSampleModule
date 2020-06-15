@@ -1,10 +1,10 @@
-﻿{
+{
   "MinimumTcAdminVersion": "2.0.147.0",
   "SqlProfiles": {
     "InstallSql": "install.sql",
     "UpdateSql": "update.sql",
     "UninstallSql": "uninstall.sql"
   },
-  "ViewsDirectory": "./Views",
-  "Dll": "SampleModule.dll"
+  "Dll": "SampleModule.dll",
+  "Dependencies": ["Kendo.Mvc.dll"]
 }
