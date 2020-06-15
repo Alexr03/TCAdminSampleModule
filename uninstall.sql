@@ -1,0 +1,1 @@
+DELETE FROM tc_info WHERE `name` LIKE 'TCAdminModule.Sample';

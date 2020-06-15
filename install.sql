@@ -1,0 +1,1 @@
+INSERT INTO tc_info (name, `value`) VALUES ('TCAdminModule.Sample', 'Sample');
