@@ -6,5 +6,5 @@
     "UninstallSql": "uninstall.sql"
   },
   "Dll": "SampleModule.dll",
-  "Dependencies": ["Kendo.Mvc.dll"]
+  "Dependencies": []
 }
