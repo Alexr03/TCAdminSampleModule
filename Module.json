@@ -3,7 +3,8 @@
   "SqlProfiles": {
     "InstallSql": "install.sql",
     "UpdateSql": "update.sql",
-    "UninstallSql": "uninstall.sql"
+    "UninstallSql": "uninstall.sql",
+    "MasterOnly": true
   },
   "Dll": "SampleModule.dll",
   "Dependencies": []
