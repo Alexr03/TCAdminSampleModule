@@ -1,10 +1,10 @@
 {
   "MinimumTcAdminVersion": "2.0.147.0",
+  "MasterOnly": true,
   "SqlProfiles": {
     "InstallSql": "install.sql",
     "UpdateSql": "update.sql",
-    "UninstallSql": "uninstall.sql",
-    "MasterOnly": true
+    "UninstallSql": "uninstall.sql"
   },
   "Dll": "SampleModule.dll",
   "Dependencies": []
